@@ -580,6 +580,10 @@ video {
   order: 2;
 }
 
+.float-left {
+  float: left;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -593,6 +597,16 @@ video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .mb-10 {
@@ -645,6 +659,22 @@ video {
 
 .-mb-10 {
   margin-bottom: -2.5rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
 .inline-block {
@@ -831,6 +861,10 @@ video {
   background-color: rgb(71 92 122 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#475c7a77\] {
+  background-color: #475c7a77;
+}
+
 .bg-\[url\(\.\.\/assets\/wp\.png\)\] {
   background-image: url(../assets/wp.png);
 }
@@ -879,6 +913,10 @@ video {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
 .text-left {
